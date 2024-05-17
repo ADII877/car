@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+scroll-behavior: smooth;
+
+}
+/* Navigation Section */
+#navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+#navbar::before {
+    position: absolute;
+    content: " ";
+    color: white;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
+
+}
+
+#logo img {
+    margin-top: 0;
+    padding-top: 0;
+    height: 40px;
+    width: 123px;
+}
+
+#logoname {
+    font-size: 30px;
+    display: inline;
+    position: relative;
+    top: -5px;
+}
+
+#logoname span {
+    position: relative;
+    top: 3px;
+    color: #65de97;
+    font-size: 45px;
+}
+
+#navbar ul {
+    font-family: "agbalumo";
+    display: flex;
+    list-style: none;
+    margin-right: 290px;
+}
+
+#navbar ul li {
+    margin: 10px;
+}
+
+#navbar ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 11px 15px;
+    margin-left: -20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10Spx white;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    padding: 3px 10px;
+    flex-direction: column;
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+}
+
+.para p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#heading {
+    font-family: 'Anton';
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+
+#heading span {
+    color: rgb(168, 41, 60);
+}
+
+#home::before {
+    position: absolute;
+    content: " ";
+    color: white;
+    background: url(thar5.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home input {
+    margin: 20px 0px;
+    font-size: 20px;
+    border: none;
+    color: white;
+
+    cursor: pointer;
+    box-shadow: 0 0 40px #0e1c3c;
+}
+
+#home input[type="button"] {
+    font-family: "Agbalumo";
+    background-color: #537fe5;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#home input[type="button"]:hover {
+    box-shadow: none;
+    color: black;
+    background-color: #4f76d0;
+}
+
+#home input[type="button"]:focus {
+    color: white;
+    background-color: #537fe5;
+}
+
+#features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 3.3rem;
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+}
+
+.feature {
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 400px;
+    top: 3.6rem;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    width: 34%;
+    height: 60%;
+    color: white;
+}
+.box1 img {
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+}
+.box1 img:hover{
+    transform: scale(2);
+    box-shadow: 0px 0px 20px rgb(110, 169, 206);
+}
+.box1 p {
+    padding: 1rem 2rem;
+}
+.box1 h3 {
+    padding-top: 1rem;
+}
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    width: 33%;
+    height: 60%;
+    color: white;
+}
+
+.box2 p {
+    padding: 1rem 2rem;
+}
+.box2 h3 {
+    padding-top: 1rem;
+}
+.box2 img {
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+}
+.box2 img:hover{
+    transform: scale(2);
+    box-shadow: 0px 0px 20px rgb(161, 206, 110);
+}
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    width: 33%;
+    height: 60%;
+    color: white;
+}
+
+.box3 p {
+    padding: 1rem 2rem;
+}
+.box3 h3 {
+    padding-top: 1rem;
+}
+.box3 img {
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+}
+.box3 img:hover{
+    transform: scale(2);
+    box-shadow: 0px 0px 20px rgb(180, 110, 206);
+}
+.box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    width: 33%;
+    height: 60%;
+    color: white;
+}
+
+.box4 p {
+    padding: 1rem 2rem;
+}
+.box4 h3 {
+    padding-top: 1rem;
+}
+.box4 img {
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+}
+.box4 img:hover{
+    transform: scale(2);
+    box-shadow: 0px 0px 20px rgb(110, 113, 206);
+}
+.box5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    width: 34%;
+    height: 60%;
+    color: white;
+}
+
+.box5 p {
+    padding: 1rem 2rem;
+}
+.box5 h3 {
+    padding-top: 1rem;
+}
+.box5 img {
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+}
+.box5 img:hover{
+    transform: scale(2);
+    box-shadow: 0px 0px 20px rgb(110, 206, 116);
+}
+.box6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    width: 33%;
+    height: 60%;
+    color: white;
+}
+
+.box6 p {
+    padding: 1rem 2rem;
+}
+.box6 h3 {
+    padding-top: 1rem;
+}
+.box6 img {
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+}
+.box6 img:hover{
+    transform: scale(2);
+    box-shadow: 0px 0px 20px rgb(206, 124, 110);
+}
